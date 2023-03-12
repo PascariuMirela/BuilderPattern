@@ -76,6 +76,10 @@ class GUI extends JFrame implements ActionListener{
 	
 	GUI()
 	{
+		
+		//GUI 
+		//jhgfd
+		
 		getContentPane().setLayout(null);
 		getContentPane().setBackground(new Color(255, 255, 255));
 		getContentPane().setForeground(new Color(0, 0, 0));
