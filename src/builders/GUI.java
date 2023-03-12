@@ -78,7 +78,7 @@ class GUI extends JFrame implements ActionListener{
 	{
 		
 		//GUI 
-		//jhgfd
+		
 		
 		getContentPane().setLayout(null);
 		getContentPane().setBackground(new Color(255, 255, 255));
@@ -90,6 +90,8 @@ class GUI extends JFrame implements ActionListener{
 		casa_simpla.setIcon(new ImageIcon(casa_simpla_image));
 		getContentPane().add(casa_simpla);
 		
+		//BUTON COPACI 
+		
 		JButton buton_copaci = new JButton("COPACI");
 		buton_copaci.setBackground(new Color(192, 192, 192));
 		buton_copaci.setForeground(new Color(0, 128, 0));
@@ -100,7 +102,7 @@ class GUI extends JFrame implements ActionListener{
 		
 		buton_copaci.setBounds(317, 95, 89, 23);
 		getContentPane().add(buton_copaci);
-		
+		//BUTON PISCINA
 		JButton buton_piscina = new JButton("PISCINA");
 		buton_piscina.setBackground(new Color(192, 192, 192));
 		buton_piscina.setFont(new Font("Times New Roman", Font.BOLD, 15));
@@ -110,7 +112,7 @@ class GUI extends JFrame implements ActionListener{
 		buton_piscina.addActionListener(this);
 		buton_piscina.setBounds(317, 144, 89, 23);
 		getContentPane().add(buton_piscina);
-		
+		//BUTON GARAJ
 		JButton buton_garaj = new JButton("GARAJ");
 		buton_garaj.setBackground(new Color(192, 192, 192));
 		buton_garaj.setFont(new Font("Times New Roman", Font.BOLD, 15));
@@ -119,7 +121,7 @@ class GUI extends JFrame implements ActionListener{
 		buton_garaj.addActionListener(this);
 		buton_garaj.setBounds(317, 192, 89, 23);
 		getContentPane().add(buton_garaj);
-		
+		//BUTON STATUI
 		JButton buton_statui = new JButton("STATUI");
 		buton_statui.setFont(new Font("Times New Roman", Font.BOLD, 15));
 		buton_statui.setBackground(new Color(192, 192, 192));
