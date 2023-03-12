@@ -92,7 +92,7 @@ class GUI extends JFrame implements ActionListener{
 		
 		
 		
-		JButton buton_copaci = new JButton("COPACI");
+		JButton buton_copaci = new JButton("Copaci");
 		buton_copaci.setBackground(new Color(192, 192, 192));
 		buton_copaci.setForeground(new Color(0, 128, 0));
 		buton_copaci.setFont(new Font("Times New Roman", Font.BOLD, 14));
@@ -112,8 +112,13 @@ class GUI extends JFrame implements ActionListener{
 		buton_piscina.addActionListener(this);
 		buton_piscina.setBounds(317, 144, 89, 23);
 		getContentPane().add(buton_piscina);
+<<<<<<< HEAD
 		
 		JButton buton_garaj = new JButton("GARAJ");
+=======
+		//BUTON GARAJ
+		JButton buton_garaj = new JButton("garaj");
+>>>>>>> refs/heads/Branch2
 		buton_garaj.setBackground(new Color(192, 192, 192));
 		buton_garaj.setFont(new Font("Times New Roman", Font.BOLD, 15));
 		buton_garaj.setForeground(new Color(102, 0, 0));
