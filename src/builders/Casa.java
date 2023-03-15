@@ -17,6 +17,7 @@ public class Casa implements PlanCasa{
 	public String get_geamuri()
 	{
 		return geamuri;
+		//returneaza geamuri
 	}
 	
 	public void set_acoperis(String acoperis) {
